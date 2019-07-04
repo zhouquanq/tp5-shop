@@ -30,17 +30,6 @@ class User extends Controller
     }
 
     /**
-     * 保存新建的资源
-     *
-     * @param  \think\Request  $request
-     * @return \think\Response
-     */
-    public function save(Request $request)
-    {
-        //
-    }
-
-    /**
      * 显示指定的资源
      */
     public function get_users($map='')
@@ -71,21 +60,8 @@ class User extends Controller
      * 显示编辑资源表单页.
      *
      * @param  int  $id
-     * @return \think\Response
      */
     public function edit($id)
-    {
-        //
-    }
-
-    /**
-     * 保存更新的资源
-     *
-     * @param  \think\Request  $request
-     * @param  int  $id
-     * @return \think\Response
-     */
-    public function update(Request $request, $id)
     {
         //
     }
